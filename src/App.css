@@ -12,7 +12,7 @@ main{
     /*max-width: 550px;*/
     border: 2px solid red;
     border-radius: 15px;
-    padding: 25px 80px;
+    padding: 10px 80px;
     margin: 5px;
     font-size: 25px;
     gap: 15px;
@@ -21,17 +21,74 @@ main{
 .fruitImg{
     height: 50px;
 }
+.btn{
+    background-color: #f5adad;
+    border: 2px solid #e76464;
+    font-size: 20px;
+    color: white;
+}
 
 .counter-btn{
     width: 30px;
     height: 30px;
+}
+
+.counter-btn-active{
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 1px 5px 0 rgba(248, 2, 2, 0.5), 0 1px 5px 0 rgba(248, 2, 2, 0.5);
+    background-color: #f5adad;
+    border: 2px solid #e76464;
     font-size: 20px;
+    color: white;
 }
 
 .reset-btn{
     width: 550px;
     border-radius: 10px;
     padding: 15px;
-    margin: 20px 15px;
-    font-size: 20px;
+    margin: 20px 15px 60px;
 }
+
+.formblok{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 30px;
+    max-width: 750px;
+    background-color: #ffeeee;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.evenZo{
+    margin-bottom: 5px;
+}
+.remarks{
+    display: flex;
+    flex-direction: column;
+}
+
+.verzend-btn{
+
+    width: 150px;
+    border-radius: 10px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+form > section{
+    margin-bottom: 10px;
+}
+
+input, textarea, select{
+    padding: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: .4s;
+}
+
