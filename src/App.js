@@ -6,11 +6,10 @@ import banaanPic from "./assets/banaanPic.jpg";
 import appelPic from "./assets/appelPic.jpg";
 import kiwiPic from "./assets/kiwiPic.jpg";
 import Button from "./components/Button";
-import {useForm} from "react-hook-form";
 
 
 function App() {
-    const { register } = useForm();
+
 
     const [aardbei, setAardbei] = useState(0);
     const [banaan, setBanaan] = useState(0);
